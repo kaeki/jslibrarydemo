@@ -1,0 +1,12 @@
+
+#container{
+	text-align: center;
+	width: 960px;
+}
+#legend{
+	width: 50%;
+	float:left;
+}
+#svg{
+	float: right;
+}

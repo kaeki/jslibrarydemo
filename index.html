@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>jsLibDemo</title>
+
+	
+	<!-- The raptorize file  -->
+	<link href="css/vendor/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/vendor/foundation.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/pizza.css" media="screen, projector, print" rel="stylesheet" type="text/css" />
+	<link href="css/main.css" media="screen, projector, print" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+	<div id="container">
+		<h1>Today's VR train schedule succes rate</h1>
+		<div>
+			<p>Departing trains from Helsinki's Railway Station</p>
+			<button id="raptor">Do not click!</button>
+			<button id="train">Show graph!</button>
+		</div>
+
+		<div id="legend">
+			<ul id="pieLegend"data-pie-id="svg" data-options='{"donut":"true"}'>
+
+			</ul>
+		</div>
+		<div id="svg" style="width: 50%"></div>
+	</div>
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/pizza.js"></script>
+	<script src="js/jquery.raptorize.1.0.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/vendor/dependencies.js"></script>
+	<script src="js/vendor/snap.svg.js"></script>
+</body>
+</html>
